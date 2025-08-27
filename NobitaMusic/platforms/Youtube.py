@@ -478,20 +478,20 @@ class YouTubeAPI:
         
         def video_dl(vid_id):
             try:
-                if not BASE_API_KEY:
+                if not API_KEY:
                     print("⚙️ API KEY not set in config, Set API Key you got from @KeyMakerRoBot")
                     return None
-                if not BASE_API_URL:
-                    print("⚙️ API Endpoint not set in config Please set a valid endpoint for BASE_API_URL_URL in config.")
+                if not API_URL:
+                    print("⚙️ API Endpoint not set in config Please set a valid endpoint for API_URL_URL in config.")
                     return None
                 headers = {
-                    "x-api-key": f"{BASE_API_KEY}",
+                    "x-api-key": f"{API_KEY}",
                     "User-Agent": "Mozilla/5"
                 }
                 xyz = os.path.join("downloads", f"{vid_id}.mp4")
                 if os.path.exists(xyz):
                     return xyz
-                getVideo = requests.get(f"{BASE_API_URL}/beta/{vid_id}", headers=headers, timeout=60)
+                getVideo = requests.get(f"{API_URL}/beta/{vid_id}", headers=headers, timeout=60)
                 try:
                     videoData = getVideo.json()
                 except Exception as e:
@@ -577,3 +577,4 @@ class YouTubeAPI:
         
 
         return downloaded_file, direct
+
