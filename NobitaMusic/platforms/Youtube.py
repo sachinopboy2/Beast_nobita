@@ -18,7 +18,7 @@ from youtubesearchpython.__future__ import VideosSearch, CustomSearch
 from NobitaMusic import LOGGER
 from NobitaMusic.utils.database import is_on_off
 from NobitaMusic.utils.formatters import time_to_seconds
-from config import BASE_API_KEY,  BASE_API_URL
+from config import
 
 logger = LOGGER(__name__)
 
