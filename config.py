@@ -93,19 +93,19 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
+    "START_IMG_URL", "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
+    "PING_IMG_URL", "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
-STATS_IMG_URL = "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
-STREAM_IMG_URL = "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/ef54edc705569cddaebc5-a2f3c3a184567c5745.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/1bcfc1f00a53fdaa79cf0-c5b6b25411e341c156.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
+STATS_IMG_URL = "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
+STREAM_IMG_URL = "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/79899e1dda4a6771dadc2-719710c14ed17d8f6e.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/1bcfc1f00a53fdaa79cf0-c5b6b25411e341c156.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/1bcfc1f00a53fdaa79cf0-c5b6b25411e341c156.jpg"
 
